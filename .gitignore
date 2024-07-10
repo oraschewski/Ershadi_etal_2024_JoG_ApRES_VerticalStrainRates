@@ -1,3 +1,6 @@
 
 # Exclude data but keep data folder.
 /data/*
+
+# Exclude .asv files
+*.asv
