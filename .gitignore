@@ -1,0 +1,3 @@
+
+# Exclude data but keep data folder.
+/data/*
