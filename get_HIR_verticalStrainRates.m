@@ -136,7 +136,6 @@ data.fitIntervals = fitIntervals;
 % save(fullfile(dirDataHIR, subdirOutput, fileOutput),'data','-mat')
 
 %% Prepare plots
-
 % Process distance information
 dist_plot = dist-dist(8); % Distance relative to ice-divide
 dist_plot = dist_plot/0.456; % Normalize with thickness
@@ -180,7 +179,6 @@ box on
 linkaxes(ax,'x')
 
 %% Plot smoothed strain rates (after moving mean filtering)
-
 f = figure;
 f.Position = [100 100 900 700];
 clear ax
