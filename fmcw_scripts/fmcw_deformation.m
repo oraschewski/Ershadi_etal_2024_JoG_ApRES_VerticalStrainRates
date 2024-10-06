@@ -639,7 +639,6 @@ if cfg.doStrainPointwise
     sr_pt.vse = sqrt((1./(L.^2)).*(dhe(gn+1).^2+dhe(gn).^2)); %add +(-dL./(L.^2)).^2 to 1. term for errors on range
     sr_pt.vsre = sr_pt.vse*daysPerYear/dt; 
 
-
     Nmean = cfg.movingMean;
     sr_pt.range_gn_mm = movmean(sr_pt.range_gn,Nmean);
     sr_pt.vsr_mm = movmean(sr_pt.vsr,Nmean);
