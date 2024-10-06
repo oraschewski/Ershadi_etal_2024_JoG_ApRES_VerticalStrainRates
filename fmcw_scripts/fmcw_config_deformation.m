@@ -102,7 +102,7 @@ cfg.verbose = 1; % results to screen
 cfg.doSaveOutput = 0; % save mat file
 
 % Plots
-cfg.doPlotAll = 1; % plot lots of other stuff
+cfg.doPlotAll = 0; % plot lots of other stuff
 
 % Individual control of all plots
 cfg.doPlotAlignBulk = 0;
