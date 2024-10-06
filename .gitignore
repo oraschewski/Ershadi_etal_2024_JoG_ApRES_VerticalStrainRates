@@ -4,3 +4,4 @@
 
 # Exclude .asv files
 *.asv
+/fmcw_scripts/exclude
