@@ -170,8 +170,8 @@ colormap(parula);
 set(h, 'EdgeColor', 'none')
 clim([-0.007,0])
 ch = colorbar('Southoutside');
-ch.Label.String = '$\dot\varepsilon_{zz}\ \left(\mathrm{yr}^{-1}\right)$';
 ch.Label.Interpreter = 'latex';
+ch.Label.String = '$\dot\varepsilon_{zz}\ \left(\mathrm{yr}^{-1}\right)$';
 axis ij
 xticks([-4.5 -3 -2 -1 0 1 2 3 4.5])
 xlabel('Distance along line $(\mathrm{km})$','Interpreter','latex')
@@ -201,8 +201,8 @@ colormap(parula);
 set(h, 'EdgeColor', 'none')
 clim([-0.007,0])
 ch = colorbar('Southoutside');
-ch.Label.String = '$\dot\varepsilon_{zz}\ \left(\mathrm{yr}^{-1}\right)$';
 ch.Label.Interpreter = 'latex';
+ch.Label.String = '$\dot\varepsilon_{zz}\ \left(\mathrm{yr}^{-1}\right)$';
 axis ij
 xticks([-4.5 -3 -2 -1 0 1 2 3 4.5])
 xlabel('Distance along line $(\mathrm{km})$','Interpreter','latex')
